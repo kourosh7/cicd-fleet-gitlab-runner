@@ -3,7 +3,8 @@ defaultNamespace: gitlab
 labels:
   bundle: cicd-services-gitlab-runner
 
-#dependsOn:
+dependsOn:
+  root-gr-simple
 # - selector:
 #      matchLabels:
 #        bundle: cicd-services-gitlab
