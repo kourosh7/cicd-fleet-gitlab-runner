@@ -4,7 +4,7 @@ labels:
   bundle: cicd-services-gitlab-runner
 
 dependsOn:
-  root-gr-simple
+  - name: root-gr-simple
 # - selector:
 #      matchLabels:
 #        bundle: cicd-services-gitlab
