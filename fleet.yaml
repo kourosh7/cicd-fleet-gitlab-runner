@@ -16,3 +16,5 @@ helm:
   releaseName: gitlab-runner
   takeOwnership: true
   disablePreProcess: true
+  valuesFiles:
+    - values.yaml
