@@ -1,0 +1,23 @@
+imagePullPolicy: Always
+
+serviceAccount:
+  name: gitlab-runner
+  create: true
+
+rbac:
+  create: true
+
+service:
+  enabled: true
+
+concurrent: 2
+checkInterval: 0
+logFormat: "text"
+
+metrics:
+  enabled: true
+  serviceMonitor:
+    enabled: true
+
+gitlabUrl: "https://gitlab.com/"
+runnerToken: "glrt-t3_u1DvxzCyAbs6LS366s6Q"
